@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Think Box | Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="FavIcon.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container" id="screen1">
+      <h1>Think Box</h1>
+      <p>"Time to make your Mind Think deep"</p>
+      <div class="instructions">
+        <h2>Instructions</h2>
+        <ul>
+          <li>Click to start the quiz.</li>
+          <li>Try to attempt all the questions.</li>
+          <li>Choose the correct answer from the given options.</li>
+          <li>Navigate through questions using the provided controls.</li>
+          <li>There is No time limit for the quiz.</li>
+          <li>Submit the quiz after attempting.</li>
+          <li>Go threw your Result.</li>
+          <li>Enjoy the quiz.</li>
+        </ul>
+      </div>
+      <button onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div class="container hide" id="screen2">
+      <h1>Quiz</h1>
+      <div class="quizBox">
+        <div class="quizManager">
+          <div id="quizQuestion" class="que"></div>
+          <div class="buttontomove">
+            <button onclick="prevQue()">Prev</button>
+            <button onclick="clearResult()">Clear</button>
+            <button id="submit" onclick="nextQue()">Next</button>
+          </div>
+        </div>
+        <div class="questionList" id="questionlist"></div>
+      </div>
+    </div>
+    <div class="container hide" id="screen3">
+      <h1>Result</h1>
+      <div class="resultshow">
+        <div class="correct">
+          <h2>Correct</h2>
+          <p id="correct"></p>
+        </div>
+        <div class="wrong">
+          <h2>Incorrect</h2>
+          <p id="wrong"></p>
+        </div>
+        <div class="Notattempted">
+          <h2>N/A</h2>
+          <p id="na"></p>
+        </div>
+      </div>
+      <div class="quizquestions" id="quizquestions"></div>
+    </div>
+    <h1 class="Ending">D.S</h1>
+    <p class="End">Divyansh Sharma © All Rights Reserved</p>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
