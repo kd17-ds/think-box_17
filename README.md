@@ -7,9 +7,8 @@
 - [Used For](#used-for)
 - [Improvements](#improvements)
 - [Problems Faced](#problems-faced)
-  - [Solution](#solution)
 - [Links](#links)
-- [Getting Started](#getting-started)
+
 
 ## Introduction
 "Think Box | Quiz" is a dynamic HTML quiz application that engages users with a variety of questions spanning from sports to general knowledge. With an intuitive interface and seamless navigation, users can test their knowledge while enjoying an interactive experience. The application offers clear instructions, easy question management, and insightful result displays, making it an enjoyable platform for quiz enthusiasts of all levels. Developed by Divyansh Sharma, it promises an engaging and educational quiz journey.
